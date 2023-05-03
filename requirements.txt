@@ -1,0 +1,24 @@
+###
+# PIP ENVIRONMENT MANAGEMENT
+#   This file is intended to be used as an easy pointer to the common Python virtual environment dependencies
+#
+# Common
+#   pip install -r requirements.txt
+#
+# Development
+#   pip install -r requirements.txt & pip install pylint
+#
+# Cleanup
+#   pip3 freeze | xargs pip3 uninstall -y
+###
+
+zeep
+git+ssh://git@git.dartmouth.edu/planon/libraries/libplanon.git
+pyyaml
+sqlalchemy
+psycopg2-binary
+requests
+planon 
+requests
+
+-r requirements-dartmouth.txt
